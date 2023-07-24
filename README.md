@@ -50,6 +50,7 @@ services and APIs.
   is done in the `~/.aperture/aperture.yaml` file.
 
 ### Running Local
+`cp sample-conf.yaml conf.yaml`
 `aperture --configfile=<path_to>/aperture.yaml` --sqlite.dbfile=.data/aperture.db
 
 ### Special Note

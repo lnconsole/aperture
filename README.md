@@ -51,7 +51,7 @@ services and APIs.
 
 ### Running Local
 `cp sample-conf.yaml conf.yaml`
-`aperture --configfile=<path_to>/aperture.yaml` --sqlite.dbfile=.data/aperture.db
+`aperture --configfile=<path_to>/conf.yaml` --sqlite.dbfile=.data/aperture.db
 
 ### Special Note
 Use `LSAT` in header instead of `L402`

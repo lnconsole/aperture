@@ -99,7 +99,7 @@ sqlite:
 services:
   # The identifying name of the service. This will also be used to identify
   # which capabilities caveat (if any) corresponds to the service.
-  - name: "ibexhub"
+  - name: "photobolt"
 
     # The regular expression used to match the service host.
     hostregexp: '^127.0.0.1:8081$'
@@ -108,7 +108,7 @@ services:
     pathregexp: '^.*$'
 
     # The host:port which the service can be reached at.
-    address: "127.0.0.1:3030"
+    address: "127.0.0.1:8080"
 
     # The HTTP protocol that should be used to connect to the service. Valid
     # options include: http, https.

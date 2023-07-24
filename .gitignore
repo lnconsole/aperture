@@ -16,4 +16,6 @@ cmd/aperture/aperture
 
 # misc
 .vscode
-.idea
+.idea/
+conf.yaml
+*.db*
